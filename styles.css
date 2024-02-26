@@ -1,0 +1,128 @@
+/* Reset CSS */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+.container {
+  width: 100%; /* Kontainer mengisi seluruh lebar layar */
+  max-width: 800px; /* Lebar maksimum konten */
+  margin: 0 auto; /* Menengahkan kontainer */
+  background-color: #f9f9f9; /* Warna latar belakang kontainer */
+  padding: 10px; /* Padding kontainer */
+  box-sizing: border-box; /* Menyesuaikan padding dan border dalam perhitungan lebar */
+}
+
+/* Header */
+header {
+  width: 100%; /* Header mengisi seluruh lebar kontainer */
+  max-width: 100%; /* Header mengisi seluruh lebar layar */
+  margin: 0 auto; /* Menengahkan header */
+  background-color: #fff; /* Warna latar belakang header */
+  padding: 20px; /* Padding header */
+  text-align: center; /* Pusatkan teks di dalam header */
+  box-sizing: border-box; /* Menyesuaikan padding dan border dalam perhitungan lebar */
+}
+
+.logo {
+  width: 200px; /* Lebar logo */
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.row a {
+  margin: 0 10px;
+}
+
+.row img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.row img:hover {
+  transform: scale(1.1);
+}
+
+/* Header Content */
+.header-content {
+  text-align: center;
+  margin-bottom: 30px; /* Menambahkan jarak antara teks dan ikon sosial */
+}
+
+.header-content h1 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.header-content p {
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.header-content button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.header-content button:hover {
+  background-color: #45a049;
+}
+
+.header-content button:disabled {
+  background-color: #ddd;
+  color: #666;
+  cursor: not-allowed;
+}
+
+/* Media queries untuk tampilan responsif */
+@media only screen and (max-width: 768px) {
+  .container {
+    padding: 10px; /* Mengurangi padding pada kontainer untuk perangkat kecil */
+  }
+
+  .logo {
+    width: 150px; /* Mengurangi lebar logo untuk perangkat kecil */
+  }
+
+  .row a {
+    margin: 0 5px; /* Mengurangi margin antara ikon sosial untuk perangkat kecil */
+  }
+
+  .header-content h1 {
+    font-size: 20px; /* Mengurangi ukuran font untuk perangkat kecil */
+  }
+
+  .header-content p {
+    font-size: 14px; /* Mengurangi ukuran font untuk perangkat kecil */
+    margin-bottom: 20px; /* Mengurangi jarak antara teks dan tombol untuk perangkat kecil */
+  }
+
+  .header-content button {
+    font-size: 16px; /* Mengurangi ukuran font untuk perangkat kecil */
+    padding: 8px 16px; /* Mengurangi padding tombol untuk perangkat kecil */
+  }
+}
+.native-banner {
+  width: 100%; /* Menjadikan lebar native banner sama dengan lebar konten */
+  max-width: 700px; /* Atur lebar maksimum jika diperlukan */
+  margin: 0 auto; /* Menengahkan native banner di tengah halaman */
+}
