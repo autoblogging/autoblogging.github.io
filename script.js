@@ -32,7 +32,7 @@ function startCountdownAndEnableDownloadButton() {
       enableDownloadButton(); // Mengaktifkan kembali tombol "Download Now"
       downloadButton.addEventListener('click', function() {
         // Membuka tautan URL pada tab baru
-        openLinkInNewTab('https://careerjet.kenapalagi.com/');
+        openLinkInNewTab('https://credentialstrapdoormagnet.com/xmvdgqx3js?key=ec0cf23ad1786d9c505faa0a34e9c2f9');
       });
     } else {
       // Memperbarui teks tombol dengan hitungan mundur yang baru
@@ -50,7 +50,7 @@ unlockButton.addEventListener('click', function() {
   clearInterval(countdownInterval);
   
   // Membuka tautan URL pada tab baru
-  openLinkInNewTab('https://theologicalsnowshorter.com/h415auvs?key=8fdb4304284c8b6fb115c0a7ec1d7b87');
+  openLinkInNewTab('https://credentialstrapdoormagnet.com/v21pxv7tf?key=73d273a5458befd1561488542a3771bd');
   
   // Memulai hitungan mundur dan mengaktifkan tombol "Download Now"
   startCountdownAndEnableDownloadButton();
